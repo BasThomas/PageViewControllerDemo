@@ -15,9 +15,11 @@ struct Name {
   var fullName: String {
     return "\(surname) \(lastname)"
   }
+  
+  var imageURL: NSURL?
 }
 
 extension Name: Equatable { }
 func ==(lhs: Name, rhs: Name) -> Bool {
-  return lhs.surname == rhs.surname && lhs.lastname == rhs.lastname
+  return lhs.surname == rhs.surname && lhs.lastname == rhs.lastname && lhs.imageURL == rhs.imageURL
 }

@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494F2E321C171FC7007C626D /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F2E311C171FC7007C626D /* NameTableViewCell.swift */; };
+		494F2E341C172048007C626D /* NameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F2E331C172048007C626D /* NameTableViewController.swift */; };
 		49F3EB4B1C0F50BC00799FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F3EB4A1C0F50BC00799FBB /* AppDelegate.swift */; };
 		49F3EB4D1C0F50BC00799FBB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F3EB4C1C0F50BC00799FBB /* RootViewController.swift */; };
 		49F3EB4F1C0F50BC00799FBB /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F3EB4E1C0F50BC00799FBB /* DataViewController.swift */; };
-		49F3EB511C0F50BC00799FBB /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F3EB501C0F50BC00799FBB /* ModelController.swift */; };
 		49F3EB541C0F50BC00799FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F3EB521C0F50BC00799FBB /* Main.storyboard */; };
 		49F3EB561C0F50BC00799FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F3EB551C0F50BC00799FBB /* Assets.xcassets */; };
 		49F3EB591C0F50BC00799FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F3EB571C0F50BC00799FBB /* LaunchScreen.storyboard */; };
@@ -20,11 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		494F2E311C171FC7007C626D /* NameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		494F2E331C172048007C626D /* NameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameTableViewController.swift; sourceTree = "<group>"; };
 		49F3EB471C0F50BC00799FBB /* PageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F3EB4A1C0F50BC00799FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F3EB4C1C0F50BC00799FBB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		49F3EB4E1C0F50BC00799FBB /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		49F3EB501C0F50BC00799FBB /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		49F3EB531C0F50BC00799FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49F3EB551C0F50BC00799FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F3EB581C0F50BC00799FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,8 +69,9 @@
 				49F3EB4A1C0F50BC00799FBB /* AppDelegate.swift */,
 				49F3EB4C1C0F50BC00799FBB /* RootViewController.swift */,
 				49F3EB4E1C0F50BC00799FBB /* DataViewController.swift */,
-				49F3EB501C0F50BC00799FBB /* ModelController.swift */,
 				49F3EB601C0F50EC00799FBB /* Name.swift */,
+				494F2E331C172048007C626D /* NameTableViewController.swift */,
+				494F2E311C171FC7007C626D /* NameTableViewCell.swift */,
 				49F3EB621C0F529400799FBB /* GCD+Extension.swift */,
 				49F3EB641C0F530500799FBB /* UIView+Extension.swift */,
 				49F3EB521C0F50BC00799FBB /* Main.storyboard */,
@@ -152,10 +155,11 @@
 			files = (
 				49F3EB4D1C0F50BC00799FBB /* RootViewController.swift in Sources */,
 				49F3EB651C0F530500799FBB /* UIView+Extension.swift in Sources */,
-				49F3EB511C0F50BC00799FBB /* ModelController.swift in Sources */,
 				49F3EB4F1C0F50BC00799FBB /* DataViewController.swift in Sources */,
 				49F3EB4B1C0F50BC00799FBB /* AppDelegate.swift in Sources */,
+				494F2E341C172048007C626D /* NameTableViewController.swift in Sources */,
 				49F3EB631C0F529400799FBB /* GCD+Extension.swift in Sources */,
+				494F2E321C171FC7007C626D /* NameTableViewCell.swift in Sources */,
 				49F3EB611C0F50EC00799FBB /* Name.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +310,7 @@
 				49F3EB5F1C0F50BC00799FBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
